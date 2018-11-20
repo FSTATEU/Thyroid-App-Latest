@@ -1,0 +1,27 @@
+{
+  "name": "thyroid-app-server",
+  "version": "0.0.0",
+  "description": "thyroid-app-server ==================",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtriff/thyroid-app-server.git"
+  },
+  "author": "Matt Triff, Siddharth Jain",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mtriff/thyroid-app-server/issues"
+  },
+  "homepage": "https://github.com/mtriff/thyroid-app-server",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^3.x",
+    "mongodb": "^3.1.10"
+  }
+}
